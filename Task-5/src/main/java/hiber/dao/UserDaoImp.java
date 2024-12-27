@@ -13,8 +13,13 @@ import java.util.List;
 @Repository
 public class UserDaoImp implements UserDao {
 
-   @Autowired
+
    private SessionFactory sessionFactory;
+
+   @Autowired
+   public void setSessionFactory(SessionFactory sessionFactory) {
+      this.sessionFactory = sessionFactory;
+   }
 
    @Override
    public void add(User user) {
@@ -30,13 +35,14 @@ public class UserDaoImp implements UserDao {
 
    @Override
    public List<User> findByCar(Car car) {
-      List<User> findedUser = sessionFactory.getCurrentSession()
-              .createQuery("SELECT u FROM User u JOIN u.car c WHERE c.model = :model AND c.series = :series")
+      String hql="SELECT u FROM User u JOIN u.car c WHERE c.model = :model AND c.series = :series";
+      List<User> foundUsers = sessionFactory.getCurrentSession()
+              .createQuery(hql)
               .setParameter("model", car.getModel())
               .setParameter("series", car.getSeries())
               .getResultList();
 
-      return findedUser;
+      return foundUsers;
    }
 
    @Override
