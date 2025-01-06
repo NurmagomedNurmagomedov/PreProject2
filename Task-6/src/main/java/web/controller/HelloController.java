@@ -11,6 +11,11 @@ import java.util.List;
 @Controller
 public class HelloController {
 
+	@GetMapping("/")
+	public String home() {
+		return "redirect:/hello";
+	}
+
 	@GetMapping(value = "/hello")
 	public String printWelcome(ModelMap model) {
 		List<String> messages = new ArrayList<>();
@@ -20,5 +25,11 @@ public class HelloController {
 		model.addAttribute("messages", messages);
 		return "index";
 	}
+
+	@RequestMapping
+	public String viewHandler() {
+		return "index"; // will be highlighted if no view with "viewName" can be found
+	}
+
 	
 }
