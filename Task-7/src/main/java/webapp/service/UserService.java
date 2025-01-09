@@ -1,7 +1,7 @@
-package service;
+package webapp.service;
 
-import Repository.UserRepository;
-import model.User;
+import webapp.repository.UserRepository;
+import webapp.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,11 +1,10 @@
-package Repository;
+package webapp.repository;
 
 import jakarta.data.repository.Repository;
-import jakarta.enterprise.inject.Default;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
-import model.User;
+import webapp.model.User;
 
 import java.util.List;
 import java.util.stream.Collectors;
