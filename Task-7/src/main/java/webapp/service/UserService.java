@@ -1,7 +1,6 @@
 package webapp.service;
 
 import jakarta.transaction.Transactional;
-import org.springframework.stereotype.Controller;
 import webapp.model.User;
 import org.springframework.stereotype.Service;
 import webapp.repository.UserRepository;

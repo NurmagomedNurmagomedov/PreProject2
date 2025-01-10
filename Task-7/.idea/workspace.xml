@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b97a8fc2-cba6-413d-90cf-17e723575cd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task-5/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task-5/.idea/Task-5.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task-5/.idea/dataSources.xml" beforeDir="false" />
@@ -21,12 +20,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/config/JpaConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webapp/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webapp/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/config/WebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webapp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +59,16 @@
   "keyToString": {
     "Maven.Task-7 [clean].executor": "Run",
     "Maven.Task-7 [compile].executor": "Run",
+    "Maven.Task-7 [dependency:tree].executor": "Run",
+    "Maven.Task-7 [install].executor": "Run",
     "Maven.Task-7 [org.apache.maven.plugins:maven-deploy-plugin:3.1.2:deploy-file].executor": "Run",
     "Maven.Task-7 [org.apache.maven.plugins:maven-deploy-plugin:3.1.2:deploy].executor": "Run",
     "Maven.Task-7 [org.apache.maven.plugins:maven-site-plugin:3.12.1:deploy].executor": "Run",
     "Maven.Task-7 [org.apache.maven.plugins:maven-war-plugin:3.4.0:war].executor": "Run",
     "Maven.Task-7 [test].executor": "Run",
+    "Maven.Task-7 [tree].executor": "Run",
     "Maven.Task-7 [validate].executor": "Run",
+    "Maven.Task-7 [versions:display-dependency-updates].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -81,7 +82,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.45287356",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -97,6 +98,13 @@
       <recent name="C:\Java\PreProject2\Task-7\src\main\webapp\WEB-INF\pages" />
       <recent name="C:\Java\PreProject2\Task-7\src\main\webapp\WEB-INF\pages\users" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn tree" />
+      <command value="mvn dependency:tree" />
+      <command value="mvn versions:display-dependency-updates" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -282,7 +290,10 @@
       <updated>1736429874265</updated>
       <workItem from="1736429875324" duration="638000" />
       <workItem from="1736430518669" duration="343000" />
-      <workItem from="1736431021494" duration="14998000" />
+      <workItem from="1736431021494" duration="16532000" />
+      <workItem from="1736466407458" duration="922000" />
+      <workItem from="1736467335741" duration="777000" />
+      <workItem from="1736468279567" duration="819000" />
     </task>
     <servers />
   </component>
